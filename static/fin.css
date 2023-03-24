@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/**     MOVIL       **/
+@media (max-width: 767px){
+    .desktop{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+}
+
+/**     TABLET      **/
+@media (min-width: 768px) and (max-width: 990px){
+    .desktop{
+        display: none;
+    }
+    .movil{
+        display: none;
+    }
+}
+
+/**     ESCRITORIO       **/
+@media (min-width: 991px){
+    .movil{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+    .cabecera{
+        position: fixed;
+        background-color: #317d5f;
+        width: 100%;
+        height: 10vh;
+        text-align: center;
+        align-items: center;
+    }
+    .titulo{
+        color: rgb(255, 255, 255);
+        font-size: 350%;
+        padding-top: 0.4%;
+        font-family: 'Annie Use Your Telescope', cursive;
+        font-weight: 800;
+    }
+    .main{
+        background-color: #a2e5ca;
+        width: 100%;
+        height: 80vh;
+        padding-top: 20vh;
+        text-align: center;
+    }
+    .conteiner{
+        width: 70%;
+        height: 70vh;
+        margin-left: 15%;
+        border-radius: 14px;
+    }
+    .tituloFin{
+        color: rgb(48, 47, 47);
+        padding: 2%;
+        font-family: 'Annie Use Your Telescope', cursive;
+    }
+    .calculadora{
+        height: 50vh;
+    }
+    .sectores{
+        margin-top: 3%;
+        margin-bottom: 5%;
+    }
+    .textForm{
+        padding: 1%;
+        font-size: 140%;
+        font-family: 'Annie Use Your Telescope', cursive;
+        font-weight: bold;
+    }
+    .txtInput{
+        padding: 1%;
+        font-size: 120%;
+        width: 20%;
+        border-radius: 8px;
+        border: none;
+        text-align: center;
+        font-family: 'Annie Use Your Telescope', cursive;
+        font-weight: bold;
+    }
+    .btnCalcular{
+        padding: 1%;
+        border-radius: 12px;
+        background-color: aliceblue;
+        font-size: 120%;
+        font-family: 'Annie Use Your Telescope', cursive;
+        font-weight: bold;
+        width: 16%;
+    }
+}
